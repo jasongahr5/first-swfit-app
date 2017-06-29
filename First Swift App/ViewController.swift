@@ -10,18 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var tapCount = 0
-    
+    // BUTTON that you tap
     @IBAction func buttonTapped(_ sender: Any) {
+    print(text1.text!)
+    print(text2.text!)
         
-        tapCount = tapCount + 1
-        if tapCount == 10 {
-            print("You have reached 10. CONGRATS")
-        }
     }
     
-
+    // TEXT BOXES
+    @IBOutlet weak var text1: UITextField!
     
+    @IBOutlet weak var text2: UITextField!
+    
+    // END OF TEXT BOXES
     
     @IBOutlet weak var theLabel: UILabel!
     override func viewDidLoad() {
