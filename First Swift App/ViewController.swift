@@ -3,8 +3,8 @@
 //  First Swift App
 //
 //  Created by Jason Gahr on 6/28/17.
-//  Copyright © 2017 JasonG LLC. All rights reserved.
-//
+//  Copyright © 2017 JasonG LLC. All rights reserved..
+// :)
 
 import UIKit
 
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         tapCount = tapCount + 1
         if tapCount == 10 {
-            print("You have reached 10")
+            print("You have reached 10. CONGRATS")
         }
     }
     
