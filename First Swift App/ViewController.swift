@@ -12,8 +12,10 @@ class ViewController: UIViewController {
     
     // BUTTON that you tap
     @IBAction func buttonTapped(_ sender: Any) {
+        
+    let Answer = true
     
-    theLabel.text = "Answer is \(String(Double(text1.text!)! + Double(text2.text!)!))"
+    theLabel.text = "Answer is \(Answer))"
         
     }
     
